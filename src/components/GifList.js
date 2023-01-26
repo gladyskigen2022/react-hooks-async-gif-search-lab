@@ -8,7 +8,7 @@ function GifList({showGif}) {
         <ul>
             {showGif.map((gif) => {
                 return (
-                    <Card style={{marginTop: "15px"}}>
+                    <Card style={{marginTop: "20px"}}>
                         <Image src={gif.url} alt="gif" wrapped ui={false} />
                     </Card>
                 )

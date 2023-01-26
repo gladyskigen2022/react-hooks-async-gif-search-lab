@@ -16,9 +16,9 @@ function GifSearch({search, setSearch}) {
     return (
         <Search
           className="search-bar"
-          placeholder='Search...'
+          placeholder='Search Gif'
           onSearchChange={handleSearchChange}
-          style={{marginLeft: "45px"}}
+          style={{marginLeft: "40px"}}
         />
     )
 }
